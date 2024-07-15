@@ -11,10 +11,12 @@ variable "name" {
 
 variable "sku" {
   description = "sku"
+  default = "Basic"
 }
 
 variable "allocation_method" {
   description = "allocation_method"
+  default = "Dynamic"
 }
 
 variable "tags" {
